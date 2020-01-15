@@ -1,0 +1,46 @@
+packetdiag {
+  colwidth = 32
+
+  8-15: Target SpW Address [color = LightSkyBlue ]
+  16-23: ... [color = LightSkyBlue ]
+  24-31: Target SpW Address [color = LightSkyBlue ]
+  32-39: Target Logical Address [color = LightCoral]
+  40-47: Protocol Identifier [color = LemonChiffon ]
+  48-55: Instruction
+  56-63: Key
+  64-71: Reply Address [color = LightSkyBlue ]
+  72-79: Reply Address [color = LightSkyBlue ]
+  80-87: Reply Address [color = LightSkyBlue ]
+  88-95: Reply Address [color = LightSkyBlue ]
+  96-103: Reply Address [color = LightSkyBlue ]
+  104-111: Reply Address [color = LightSkyBlue ]
+  112-119: Reply Address [color = LightSkyBlue ]
+  120-127: Reply Address [color = LightSkyBlue ]
+  128-135: Reply Address [color = LightSkyBlue ]
+  136-143: Reply Address [color = LightSkyBlue ]
+  144-151: Reply Address [color = LightSkyBlue ]
+  152-159: Reply Address [color = LightSkyBlue ]
+  160-167: Initiator Logical Address
+  168-175: Transaction Identifier(MS)
+  176-183: Transaction Identifier(LS)
+  184-191: Extended Address
+  192-199: Address(MS)
+  200-207: Address
+  208-215: Address
+  216-223: Address(LS)
+  224-231: Data Length(MS)
+  232-239: Data Length
+  240-247: Data Length(LS)
+  248-255: Header CRC
+  256-263: Data [color = LightSkyBlue ]
+  264-271: Data [color = LightSkyBlue ]
+  272-279: Data [color = LightSkyBlue ]
+  280-287: Data [color = LightSkyBlue ]
+  288-295: Data [color = LightSkyBlue ]
+  296-303: ... [color = LightSkyBlue ]
+  304-311: ... [color = LightSkyBlue ]
+  312-319: Data [color = LightSkyBlue ]
+  320-327: Data [color = LightSkyBlue ]
+  328-335: Data CRC
+  336-339: EOP [color = LightCoral]
+}

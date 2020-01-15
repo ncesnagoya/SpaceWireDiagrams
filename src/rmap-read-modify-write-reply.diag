@@ -1,0 +1,25 @@
+packetdiag {
+  colwidth = 32
+
+  8-15: Reply SpW Address [color = LightSkyBlue ]
+  16-23: ... [color = LightSkyBlue ]
+  24-31: Reply SpW Address [color = LightSkyBlue ]
+  32-39: Initiator Logical Address [color = LightCoral]
+  40-47: Protocol Identifier [color = LemonChiffon ]
+  48-55: Instruction
+  56-63: Status
+  64-71: Target Logical Address
+  72-79: Transaction Identifier(MS)
+  80-87: Transaction Identifier(LS)
+  88-95: Reserved = 0
+  96-103: Data Length(MS) = 0
+  104-111: Data Length = 0
+  112-119: Data Lenght(LS) = 0x00, 0x01, 0x02, 0x03 or 0x04
+  120-127: Header CRC
+  128-135: Data [color = LightSkyBlue]
+  136-143: Data [color = LightSkyBlue]
+  144-151: Data [color = LightSkyBlue]
+  152-159: Data [color = LightSkyBlue]
+  160-167: Data CRC
+  168-171: EOP [color = LightCoral]
+}
